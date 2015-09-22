@@ -24,6 +24,8 @@ document.addEventListener('windowHeightReady', function(e) {
 
 
 The above listener will gets invoked when we despatch the custom event. Here are resolving a promise ('WindowHeightReady').
+We can make use of promise when listening to a custom event. Please refer the other sample for this.
+https://github.com/sareeshv/promiseTest
 
 Instead of this we can use any functions as shown below.
 

@@ -21,11 +21,13 @@
 
 
 
-
+	//We can make use of promise when listening to a custom event. Please refer the other sample for this
+	//https://github.com/sareeshv/promiseTest
 	//document.addEventListener('windowHeightReady', function(e) {
 	//	SampleObject.WindowHeightReady.resolve();
 	//}, false);
 
 	document.addEventListener('windowHeightReady', sampleFunction);
+
 
 })();

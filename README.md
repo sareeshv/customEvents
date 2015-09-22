@@ -13,7 +13,7 @@ we can trigger a custom event after getting the iframe url as shown below.
 
 
 document.dispatchEvent(new Event("windowHeightReady"));
-----------------------------------------------------------------
+
 
 The above code will create an Event and will despatch the event and the corresponding listener will catch this.
 
@@ -21,7 +21,7 @@ The above code will create an Event and will despatch the event and the correspo
 document.addEventListener('windowHeightReady', function(e) {
 	SampleObject.WindowHeightReady.resolve();
 }, false);
-----------------------------------------------------------------
+
 
 The above listener will gets invoked when we despatch the custom event. Here are resolving a promise ('WindowHeightReady').
 
@@ -32,4 +32,4 @@ var sampleFunction = myFunction(){
 };
 
 document.addEventListener('windowHeightReady', sampleFunction);
-----------------------------------------------------------------
+
